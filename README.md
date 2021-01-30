@@ -1,3 +1,6 @@
-#Desafio 1 Papo de Dev
+# desafio-1-papodedev
 
-![]("/assets/desafioPapoDeDev-2021-01-30_15.43.53.gif")
+#### Creating a promotional tennis card using CSS and some animations (and a little bit of javascript).
+
+![Tennis](https://i.imgur.com/ioRqvQN.gif)
+
