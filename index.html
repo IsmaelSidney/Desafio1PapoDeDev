@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Desafio 1 papo de Dev</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                 <img class='shoes' id='shoes-img' src="/assets/sneakers.png" alt="" srcset=""> 
+                 <div class="description">
+                    <h6 class="brand">Nike</h6>
+                    <h2 class="model-name">Epic React Flyknit 2</h2>
+                    <div class="price">
+                      <p>R$</p>
+                      <h6>359,00</h6>
+                    </div>
+                  </div>
+                 <div class="content-area">
+                     <div class="content">
+                        <h3>Cores:</h3>
+                        <div class="color">
+                            <span onclick="changeColor('green')" id="green"></span>
+                            <span onclick="changeColor('red')" id="red"></span>
+                            <span onclick="changeColor('blue')" id="blue"></span>
+                        </div>
+                        <h3>Tamanhos:</h3>
+                        <div class="size">
+                            <span>37</span>
+                            <span>38</span>
+                            <span>39</span>
+                            <span>40</span>
+                        </div>
+                    </div>
+                    <div class="btnBuy">
+                        <div class="arrow">
+                            <img id='a1' src="/assets/arrow.png">
+                            <img id='a2' src="/assets/arrow.png">
+                            <img id='a3' src="/assets/arrow.png">
+                        </div>
+                        
+                        <img class="cart" src="/assets/cart.svg">
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
